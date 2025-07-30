@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(236, 216, 246);
+    font-family: 'Poppins', sans-serif;
+}
+
+.page-heading {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.breadcrumb {
+    font-size: 1.2em;
+    color: #6c757d;
+}
+
+.section-home {
+    padding: 60px 0;
+}
+
+.cause {
+    width: 100%; /* Ensure the card takes full width of the column */
+    max-width: 400px; /* Set a maximum width for the card */
+    height: auto; /* Allow height to adjust based on content */
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.cause-img {
+    width: 100%; /* Make the image take up the full width of its container */
+    height: 100%; /* Allow full height usage */
+    max-height: 300px; /* Adjust max-height to avoid overflow */
+    object-fit: contain; /* Ensures full image is visible without cropping */
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+.cause-details {
+    padding: 10px 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.price {
+    font-size: 0.9em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.btn-holder {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.btn-holder button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    background-color: cornflowerblue;
+    border: none;
+}
+
+.btn-holder button:hover {
+    background-color: #004085;
+}
